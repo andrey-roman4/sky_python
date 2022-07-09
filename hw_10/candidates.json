@@ -1,0 +1,65 @@
+[
+  {
+    "pk": 1,
+    "name": "Quantum Hendricks",
+    "picture": "https://m.media-amazon.com/images/I/71ytqWGBsOL._AC_SX425_.jpg",
+    "position": "Python разработчик",
+    "gender": "male",
+    "age": 31,
+    "skills": "kotlin, python"
+  },
+  {
+    "pk": 2,
+    "name": "Polly Torres",
+    "picture": "https://pbs.twimg.com/profile_images/1538505074997092353/BDMiZf8g_400x400.jpg",
+    "position": "QA lead",
+    "gender": "female",
+    "age": 26,
+    "skills": "QA, Lead, fortran, basic"
+  },
+  {
+    "pk": 3,
+    "name": "Роман Stein",
+    "picture": "https://lh3.googleusercontent.com/5DMKbHOy6gDWftOBVeZ24Hhq8igDImedlMTB8kMYmajxFjcjwsxNFK4W8Jaw6sl6_bb4GSs=s85",
+    "position": "Team lead",
+    "gender": "male",
+    "age": 27,
+    "skills": "делегирование, раздавать указания, обсуждать важные вопросы"
+  },
+  {
+    "pk": 4,
+    "name": "Bogdan Adkins",
+    "picture": "https://lh3.googleusercontent.com/W122OAQgvMwUWqjAprUlXjtxydrk_fwsgqMYKy4NQtg76U_it7McC3ol9kvFtxSLnht9hA=s85",
+    "position": "CTO",
+    "gender": "male",
+    "age": 28,
+    "skills": "very important face"
+  },
+  {
+    "pk": 5,
+    "name": "Day Holloway",
+    "picture": "https://picsum.photos/200",
+    "position": "HR manager",
+    "gender": "male",
+    "age": 35,
+    "skills": "LinkedIn, telegram, spam, spam, spam"
+  },
+  {
+    "pk": 6,
+    "name": "Andrey Cochran",
+    "picture": "https://disk.yandex.ru/i/DnKnlSRNZJTP_w",
+    "position": "python-develop",
+    "gender": "male",
+    "age": 32,
+    "skills": "python, qa"
+  },
+  {
+    "pk": 7,
+    "name": "Sheree Love",
+    "picture": "https://picsum.photos/200",
+    "position": "Django developer",
+    "gender": "male",
+    "age": 33,
+    "skills": "Python, Django, flask"
+  }
+]
