@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>Кандидат</title>
+  </head>
+  <body>
+  <div>
+    <h1>найдено кандидатов {{candidates|length}}</h1>
+    {% for can in candidates%}
+      <p>
+        <a href="/candidate/{{ can.pk }}">{{ can.name }}</a>
+      </p>
+    {% endfor %}
+  </div>
+
+  </body>
+</html>
