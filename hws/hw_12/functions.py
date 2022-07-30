@@ -14,7 +14,7 @@ def get_all_posts():
 def get_posts_by_value(value):
     result = []
     for post in get_all_posts():
-        if value.lower() in post['content']:
+        if value.lower() in post['content'].lower():
             result.append(post)
     return result
 
@@ -28,7 +28,7 @@ def add_post_to_file(url, text):
     with open('posts.json', mode='r', encoding='utf-8') as file:
         file_data = json.load(file)
         file_data.append(picture)
-        file_data = json.dumps(file_data)
+        file_data = json.dumps(file_data, ensure_ascii=False)
 
     with open('posts.json', mode='w', encoding='utf-8') as file:
         file.write(f'{file_data}')
